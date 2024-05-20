@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+## Login 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
+Esté é um projeto onde fui desafiado a criar uma tela de login com diversas funcionalidades. Utilizei Vite, React, TypeScript, Tailwind.
 
-Currently, two official plugins are available:
+A sistema de login é uma ótima maneira de aprender React ou aprimorar seus conhecimentos, apresentando diversas funcionalidades úteis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+* Autenticação de Usuários: Verificar a identidade do usuário com base nas credenciais fornecidas, como nome de usuário/e-mail e senha.
+* Armazenamento de Credenciais: Manter as credenciais de usuário de forma segura, geralmente utilizando técnicas de hash para proteger as senhas.
+* Proteção de Rotas: Limitar o acesso a determinadas partes da aplicação apenas a usuários autenticados, garantindo a segurança e a privacidade dos dados.
+* Botão de Logout: Deslogar de sua conta
 
-## Expanding the ESLint configuration
+Essas funcionalidades oferecem uma experiência de usuário agradável e eficiente para a sua autenticação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demonstração
+Você pode acessar uma demonstração da aplicação acessando: https://b2bit-processo-seletivo.vercel.app
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contato
+Se tiver alguma dúvida ou sugestão, entre em contato através do meu e-mail: jpmdrsdev@gmail.com
