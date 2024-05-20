@@ -4,7 +4,7 @@ import { Label } from "../components/feats//label";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../hook/useAuth";
 import { useState } from "react";
-//*import { ReloadIcon } from "@radix-ui/react-icons";
+import { ReloadIcon } from "@radix-ui/react-icons";
 
 export function Profile() {
   const navigate = useNavigate();
