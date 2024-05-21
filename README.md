@@ -5,6 +5,8 @@ Esté é um projeto onde fui desafiado a criar uma tela de login com diversas fu
 
 A sistema de login é uma ótima maneira de aprender React ou aprimorar seus conhecimentos, apresentando diversas funcionalidades úteis.
 
+Esse foi um desafio para a vaga de Estágiario Frontend.
+
 ## Funcionalidades
 * Autenticação de Usuários: Verificar a identidade do usuário com base nas credenciais fornecidas, como nome de usuário/e-mail e senha.
 * Armazenamento de Credenciais: Manter as credenciais de usuário de forma segura, geralmente utilizando técnicas de hash para proteger as senhas.
